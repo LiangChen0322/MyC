@@ -1,9 +1,9 @@
-objects = hello.o
+OBJECT = hello.o
 
 TARGET = hello
 
-all: $(objects)
-	cc -o $(TARGET) $(objects)
+all: $(
+	cc -o $(TARGET) $(OBJECT)
 
 clean:
 	rm *.o $(TARGET)
